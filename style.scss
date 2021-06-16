@@ -1,0 +1,75 @@
+/*
+ Theme Name:   Sydney Child
+ Author:       Daniel Andersson
+ Template:     sydney
+ Version:      1.0
+ Text Domain:  sydney-child
+*/
+
+.entry-header {
+	display: none;
+}
+
+.widget_polylang {
+	float: right;
+	ul{
+		list-style-type: none;
+		li{
+			
+		}
+	}
+}
+
+.ngg-galleryoverview.default-view {
+	text-align: left !important;
+}
+
+.sl-wrapper .sl-image .sl-caption {
+	font-size: 17px !important;
+}
+
+#masthead {
+	@media only screen and (min-width: 768px) {
+		position: absolute;
+		top: 100px;
+		-webkit-transition: background-color 0.3s ease-out;
+	    -moz-transition: background-color 0.3s ease-out;
+	    -ms-transition: background-color 0.3s ease-out;
+	    -o-transition: background-color 0.3s ease-out;
+	    transition: background-color 0.3s ease-out;
+		&.float-header {
+			top: 0;
+			position: fixed;
+		}
+	}
+}
+
+#topHeader {
+	@media only screen and (min-width: 768px) {
+		position: absolute;
+	    top: 0;
+	    left: 0;
+	    background-image: url(/wp-content/uploads/2020/09/Blick-Berge-scaled.jpg);
+	    background-position: 50% 37%;
+	    background-size: cover;
+	    height: 100px;
+	    width: 100%;
+	    z-index: 10;
+	}
+}
+
+#content {
+	@media only screen and (min-width: 768px) {
+		margin-top: 50px;
+	}
+}
+
+
+.widget_polylang {
+	@media only screen and (max-width: 767px) {
+	    float: right;
+	    position: absolute;
+	    right: 20px;
+	    top: 0;
+	}
+}
